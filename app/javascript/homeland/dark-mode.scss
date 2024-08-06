@@ -1,0 +1,186 @@
+:root[data-theme="dark"] {
+  --primary: #b3b3b3 !important;
+  --text-color: #e0e0e0;
+  --text-color1: #bbb;
+  --text-color2: #999;
+  --text-color3: #666;
+  --link-color: #222;
+  --default: #333;
+  --gray: #5d637314;
+  --secondary: #6f6f6f;
+  --link-color: #eeeeeebd;
+  --red: #a0051d;
+  --red-light: #fdf1ed10;
+  --yellow: #fee209;
+  --yellow-light: #fffdee10;
+  --blue: #2275daaa;
+  --blue-light: #e6f0fb10;
+  --green: #19a302aa;
+  --green-light: #f4fff210;
+
+  --divider-color: rgba(255, 255, 255, 0.1);
+
+  --filter-color: #6f6f6f;
+  --filter-active-color: #bb0b0b0;
+
+  --btn-secondary-text-color: #c7c7c7;
+  --btn-secondary-background-color: #3d3d3d99;
+  --btn-secondary-border-color: #414144;
+  --btn-secondary-active-background-color: #27272b99;
+  --btn-secondary-active-border-color: #414144;
+  --btn-secondary-active-text-color: #eeeeeebd;
+  --btn-secondary-hover-background-color: #4d4d4d99;
+  --btn-secondary-hover-border-color: #59595e;
+
+  --form-control-background-color: #0104094d;
+  --form-control-border-color: #21262d;
+  --form-control-disabled-background-color: #171717;
+
+  --input-group-background-color: #1a1a1f;
+  --input-group-border-color: #3d3d3d3b;
+
+  --body-background-color: #000;
+
+  --navbar-background-color: #0e0e10;
+  --navbar-text-color: #a4a8bbde;
+  --navbar-shadow-color: #c3c3c526;
+  --navbar-fixed-shadow-color: rgba(144, 144, 144, 0.27);
+  --navbar-brand-text-color: #aaa;
+  --navbar-brand-text-strong-color: #1a5092;
+  --navbar-item-link-active-background-color: #151516;
+
+  --sub-navbar-background-color: tranparent;
+  --sub-navbar-shadow-color: #7e7e8632;
+
+  --navbar-topic-title-background-color: #0e0e10;
+
+  --card-border-color: #a3acd024;
+  --card-inset-border-color: #a3acd024;
+  --card-background-color: #dcdcff0f;
+  --card-title-secondary-color: #777;
+
+  --dropdown-menu-background-color: #0f0f10;
+  --dropdown-menu-border-color: rgb(41 42 47);
+  --dropdown-menu-text-color: #a9a9a9a8;
+  --dropdown-menu-divider-color: rgb(41 42 47);
+
+  --dropdown-item-active-background-color: rgba(200, 200, 200, 0.1);
+  --dropdown-item-active-text-color: #fff;
+
+  --modal-background-color: rgb(23 23 23);
+  --modal-shadow-color: rgba(0, 0, 0, 0.39);
+
+  --list-group-item-border-color: #3d3d3d99;
+
+  --table-border-color: #36373ab5;
+  --bs-table-striped-color: #e0e0e0;
+
+  --topic-item-border-color: #a3acd024;
+  --topic-item-hover-background-color: #7a85980f;
+
+  --label-awesome-background-color: #f9cd940d;
+
+  --opts-text-color: #6f6f6f;
+  --opts-link-color: #f7f7f77c;
+  --opts-link-hover-background-color: #77787926;
+  --opts-active-icon-color: #ccc;
+
+  --scrollbar-thumb-color: #333333aa;
+  --scrollbar-track-color: transparent;
+
+  --nav-pills-active-background-color: #27272da1;
+  --nav-pills-active-text-color: #fff;
+
+  --bs-body-color: #eaeaea;
+  --bs-secondary-color: #7f7f7f;
+}
+
+[data-theme="dark"] {
+  a {
+    color: var(--link-color);
+  }
+
+  pre {
+    color: #eee;
+  }
+
+  .markdown {
+    code {
+      background: #33333330;
+    }
+    pre {
+      background: #33333330;
+      color: #eee;
+      code {
+        background: transparent !important;
+      }
+    }
+  }
+
+  .reply {
+    &.light {
+      background: #e9e6ff0d !important;
+    }
+    &.popular {
+      background: #f7f2fc1c !important;
+    }
+  }
+
+  .highlight {
+    .n {
+      color: var(--text-color1);
+    }
+    .o {
+      color: var(--text-color1);
+    }
+    .nc {
+      color: var(--blue);
+    }
+    .nn {
+      color: var(--blue);
+    }
+    .no {
+      color: var(--red);
+    }
+    .nf {
+      color: var(--blue);
+    }
+    .s1 {
+      color: var(--text-color2);
+    }
+    .k,
+    .kp {
+      color: #795d8a;
+    }
+    .nt {
+      color: var(--green);
+    }
+    .nl {
+      color: var(--yellow);
+    }
+    .mh {
+      color: var(--text-color2);
+    }
+    .c1 {
+      color: var(--text-color3);
+    }
+  }
+
+  .move-page-buttons {
+    .btn-move-page {
+      background: #151516;
+    }
+  }
+
+  .page-pages h1 {
+    color: #fff !important;
+  }
+
+  .pagination {
+    .disabled > .page-link {
+      color: #555 !important;
+      border-color: #222;
+      background-color: #222;
+    }
+  }
+}

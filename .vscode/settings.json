@@ -1,0 +1,51 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "autocorrect.enable": true,
+  "autocorrect.formatOnSave": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.extract.keyPrefix": "",
+  "i18n-ally.extract.keygenStyle": "snake_case",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": ["config/locales"],
+  "i18n-ally.pathMatcher": "*.{locale}.yml|{locale}.yml",
+  "i18n-ally.sourceLanguage": "zh-CN",
+  "i18n-ally.translate.engines": ["opencc", "google"],
+  "prettier.singleQuote": false,
+  "ruby.format": "standard",
+  "ruby.lint": {
+    "standard": {
+      "useBundler": true
+    }
+  }
+}

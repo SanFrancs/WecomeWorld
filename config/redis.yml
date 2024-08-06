@@ -1,0 +1,15 @@
+defaults: &defaults
+  url: <%= ENV["REDIS_URL"] || "redis://localhost:6379/1" %>
+
+development:
+  <<: *defaults
+  host: localhost
+  port: 63791
+
+test:
+  <<: *defaults
+  host: localhost
+  port: 63791
+
+production:
+  <<: *defaults

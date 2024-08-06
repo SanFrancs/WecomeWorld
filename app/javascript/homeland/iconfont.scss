@@ -1,0 +1,35 @@
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/brands";
+
+.fa {
+  &-pin {
+    @extend .fa-chevron-circle-up;
+  }
+  &-unpin {
+    @extend .fa-chevron-circle-down;
+  }
+  &-close {
+    @extend .fa-times;
+  }
+  &-warning {
+    @extend .fa-exclamation-triangle;
+  }
+  &-pencil {
+    @extend .fa-edit;
+  }
+  &-email {
+    @extend .fa-envelope;
+  }
+  &-company {
+    @extend .fa-briefcase;
+  }
+  &-location {
+    @extend .fa-map-marked;
+  }
+  &-wechat {
+    @extend .fa-weixin;
+  }
+}

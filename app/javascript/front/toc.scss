@@ -1,0 +1,63 @@
+@import "~homeland/_vars";
+
+.toc-container {
+  display: none;
+  z-index: 999;
+  text-align: right;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  float: right;
+
+  .dropdown-menu {
+    width: 360px;
+    z-index: 1031;
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .dropdown-item {
+    text-decoration: none !important;
+    color: var(--primary) !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.toc-level-2 {
+    }
+
+    &.toc-level-3 {
+      padding-left: 2em;
+    }
+
+    &.toc-level-4 {
+      padding-left: 3em;
+    }
+
+    &.toc-level-5 {
+      padding-left: 4em;
+    }
+
+    &.toc-level-6 {
+      padding-left: 5em;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .toc-container {
+    .dropdown-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      max-height: none;
+      padding: 15px;
+
+      .list-container {
+        max-height: 100%;
+      }
+    }
+  }
+}
